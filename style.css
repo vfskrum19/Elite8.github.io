@@ -1,0 +1,76 @@
+* {
+    background-color: antiquewhite;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Title-Banner {
+    text-align: center;
+    background-color: hsl(330, 85%, 50%);
+    color: black;
+    margin: 0px;
+}
+
+.Title-Banner h1,h4 {
+    margin: 0px;
+    background-color: hsl(330, 85%, 50%);
+
+}
+
+.Listing {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0px;
+    justify-content: space-around;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.Listing a {
+    color: blue;
+    background-color: hsla(0, 0%, 100%, 0.564);
+    width: 100%;
+}
+
+.Listing a:hover {
+    text-decoration-style: none;
+}
+
+.breakdowns {
+    margin: 10px;
+    border: 2px solid #a2a2a6;
+    background-color: rgba(218, 214, 214, 0.881);
+    width: 95%;
+}
+
+.breakdowns img {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(218, 214, 214, 0.881);
+    display: inline;
+}
+
+.breakdowns h3 {
+    text-align: center;
+    font-style: bold;
+    background-color: rgba(218, 214, 214, 0.881);
+}
+
+.breakdowns p {
+    background-color: rgba(218, 214, 214, 0.881);
+    text-align: center;
+}
+
+.FAU {
+    color:rgb(40, 28, 198);
+    background-color: rgba(218, 214, 214, 0.881);
+}
+
+.KSU {
+    color: rgb(92, 13, 92);
+    background-color: rgba(218, 214, 214, 0.881);
+}
